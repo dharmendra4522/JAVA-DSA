@@ -1,3 +1,4 @@
+package Day53Queue;
 import java.util.*;
 public class Ques6QueueReversal {
     public static void reverse(Queue<Integer> q){
@@ -17,6 +18,7 @@ public class Ques6QueueReversal {
         q.add(4);
         q.add(5);
         System.out.println("Original Queue: "+q);
+        reverse(q);
         while(!q.isEmpty()){
             System.out.print(q.remove()+" ");
 
